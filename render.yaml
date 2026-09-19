@@ -45,6 +45,8 @@ services:
         value: production
       - key: NEXT_PUBLIC_API_BASE_URL
         sync: false
+      - key: NEXT_PUBLIC_PROTOTYPE_MODE
+        value: "true"
       - key: NEXT_PUBLIC_KEYCLOAK_ISSUER
         sync: false
       - key: NEXT_PUBLIC_KEYCLOAK_CLIENT_ID
